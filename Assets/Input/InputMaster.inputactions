@@ -1,0 +1,93 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "PlayerInput",
+            "id": "48cb7c6a-d018-4bbc-800c-28bdd1996207",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "e5e8d633-dcf5-40f9-ab04-2ad8500e17d5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "fdbbfcb4-30dd-4ab9-974f-d4056a38da47",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "84471a31-54bc-4412-970d-3e6c7f8e121f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Horizontal",
+                    "id": "cd7f13f1-084f-4492-8153-51ee8d110002",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "8ac6d8af-9219-432c-ad77-7e51f2553a53",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "956c59bf-f002-44c6-8414-a912e257135e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "4cc06104-46d6-4071-a6a2-75dcfb497a8c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b84e737e-39d9-476f-baa5-c9f92a76b8c7",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
